@@ -1,0 +1,88 @@
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+label, input {
+	margin-bottom: 10px;
+}
+
+button {
+	margin-top: 10px;
+}
+
+#welcome {
+	display: none;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+#login-form, #signup-form {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border-radius: 10px;
+  }
+  input[type="text"], input[type="password"] {
+	border-radius: 3px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	margin: 10px 0;
+  }
+  #login-button:hover, #signup-button:hover {
+	background-color: #040621;
+  }
+  body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #b3ffc5;
+	background-image: linear-gradient(to bottom right, #b7ffb3, #99ffa2);
+  }
+  #welcome {
+	background-image: linear-gradient(to bottom right, #bdffb3, #99ffa7);
+  color: #333;
+	border: 1px solid #cccccc;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-align: center;
+	display: none;
+  }
+  #buyer {
+	background-image: linear-gradient(to bottom right, #bdffb3, #99ffa7);
+  color: #333;
+	border: 1px solid #cccccc;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-align: center;
+	display: none;
+  }
+  #seller {
+	background-image: linear-gradient(to bottom right, #bdffb3, #99ffa7);
+  color: #333;
+	border: 1px solid #cccccc;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-align: center;
+	display: none;
+  }
+	
+  .button {
+	background-image: linear-gradient(to bottom right, #8eaf4c, #597900);
+	color: #fff;
+  }
+  .button:hover{
+	background-image: linear-gradient(to bottom right, #597900, #9baf4c);
+  }
+  #login-form, #signup-form {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .busket{
+	position: fixed; 
+	top: 0px;
+    right: 0px;
+	background-color: #eaf51d;
+  }
+	  
+	
